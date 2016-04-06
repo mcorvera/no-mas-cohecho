@@ -1,13 +1,13 @@
 # site settings
-title: Quien te financia
+title: No más cohecho
 email: info@ciudadanointeligente.org
-description: La querella que no esperaban... infórmate en CasoPenta.cl
+description: infórmate en nomascohecho.cl
 # Hasta que no sepamos quién los financia nos gobierna un poder invisible.
-baseurl: "http://casopenta.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
+baseurl: "http://nomascohecho.cl" # "http://quientefinancia.cl" ## the subpath of your site, e.g. /blog/
 twitter_username: ciudadanoi
 github_username:  ciudadanointeligente
-analytics: 'UA-41822715-7'
-basedomain: casopenta.cl #quientefinancia.cl
+analytics: 'UA-41822715-11'
+basedomain: nomascohecho.cl #quientefinancia.cl
 
 # build settings
 markdown: kramdown
