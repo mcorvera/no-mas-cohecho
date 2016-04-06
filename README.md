@@ -1,7 +1,7 @@
-quien-te-financia
+no más cohecho
 =================
 
-Hasta que no sepamos quién los financia nos gobierna un poder invisible.
+
 
 ## Installation
 
