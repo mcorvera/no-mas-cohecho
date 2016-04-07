@@ -1,4 +1,5 @@
 ---
+uid: 2
 name: "Iván Moreira"
 image: "ivan-moreira.jpg"
 current_situation: "<b>Partido:</b> UDI </br><b>Estado:</b> Formalizado. Ejerciendo como Senador."

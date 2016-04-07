@@ -1,4 +1,5 @@
 ---
+uid: 8
 name: "Alberto Cardemil"
 image: "alberto-cardemil.jpg"
 current_situation: <b>Partido:</b> RN </br><b>Estado:</b> Formalizado.</br><b>Cautelar:</b> Firma quincenal y arraigo nacional.</br>

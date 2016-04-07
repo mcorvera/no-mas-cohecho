@@ -1,4 +1,5 @@
 ---
+uid: 11
 name: "Jaime Orpis"
 image: "jaime-orpis.jpg"
 current_situation: "<b>Partido:</b> Ex UDI </br><b>Estado:</b> Sin formalizar. Desaforado."

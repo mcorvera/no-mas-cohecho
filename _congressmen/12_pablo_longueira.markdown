@@ -1,4 +1,5 @@
 ---
+uid: 12
 name: "Pablo Longueira"
 image: "pablo-longueira.jpg"
 current_situation: "<b>Partido:</b> Ex UDI </br><b>Estado:</b> Sin formalizar."

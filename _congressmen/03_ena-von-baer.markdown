@@ -1,4 +1,5 @@
 ---
+uid: 3
 name: "Ena Von Baer"
 image: "ena-von-baer.jpg"
 current_situation: "<b>Partido:</b> UDI </br><b>Estado:</b> Sin formalizar. Ejerciendo como Senadora."
