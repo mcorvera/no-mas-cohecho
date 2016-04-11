@@ -11,12 +11,16 @@
         <ul class="grid cs-style-3 clearfix">
             {% assign counter=0 %}
             {% for congressman in site.congressmen %}
-            <div class="col-md-15 col-sm-15">
+              <div class="col-md-15 col-sm-15">
                 <div class="thumbnail">
-                    <img src="{{site.url}}/img/congressman/{{congressman.image}}" alt="{{congressman.name}}">
+                    <img class="img-responsive" src="{{site.url}}/img/congressman/{{congressman.image}}" alt="{{congressman.name}}">
                     <div class="caption">
                       <h3>{{congressman.name}}</h3>
-                      <p>{{congressman.current_situation}}</p>
+                      <ul class="list-unstyled">
+                        {% for situation in congressman.situation %}
+                        <li><b>{{situation.key}}</b> : {{situation.value}}</li>
+                        {% endfor %}
+                      </ul>
                       <!-- Button trigger modal -->
                       <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal-{{congressman.uid}}">
                         Más información
@@ -31,6 +35,11 @@
                               <h4 class="modal-title" id="myModalLabel">{{congressman.name}}</h4>
                             </div>
                             <div class="modal-body">
+                              <ul class="list-unstyled">
+                                {% for situation in congressman.situation %}
+                                <li><b>{{situation.key}}</b> : {{situation.value}}</li>
+                                {% endfor %}
+                              </ul>
                               {{congressman.content_modal}}
                             </div>
                             <div class="modal-footer">
@@ -44,13 +53,13 @@
 
                     </div>
                 </div>
-            </div>
+              </div>
 
-            {% if counter == 4 %}
-            </ul>
-            <ul class="grid cs-style-3 clearfix">
-            {% endif %}
-            {% assign counter=counter | plus:1 %}
+              {% if counter == 4 %}
+              </ul>
+              <ul class="grid cs-style-3 clearfix">
+              {% endif %}
+              {% assign counter=counter | plus:1 %}
             {% endfor %}
         </ul>
         <div class="reform">
