@@ -6,11 +6,11 @@
 
 <section id="imputados" class="bg-lightblue">
     <div class="container">
-        <h2>Los querellados<span class='subhead'>Estos son los funcionarios públicos ante los cuales se interpuso nuestra querella por presunto cohecho: <a href="#" data-toggle="tooltip" data-placement="top" title="El cohecho es un delito que consiste en que una autoridad o funcionario público acepta o solicita una dádiva a cambio de realizar u omitir un acto inherente a su cargo"><i class="fa fa-info-circle"></i></a> :</span></h2>
+        <h2>Caso Corpesca<span class='subhead'>El caso Corpesca es una  investigación que está llevando el Ministerio Público por supuestos pagos reiterados realizados desde la firma de la pesca industrial Corpesca a políticos que en ese entonces estaban llevando la tramitación legislativa de la Ley de Pesca. Estos son nuestros querellados en este caso: <a href="#" data-toggle="tooltip" data-placement="top" title="El cohecho es un delito que consiste en que una autoridad o funcionario público acepta o solicita una dádiva a cambio de realizar u omitir un acto inherente a su cargo"><i class="fa fa-info-circle"></i></a></span></h2>
         <h3></h3>
         <ul class="grid cs-style-3 clearfix">
             {% assign counter=0 %}
-            {% for congressman in site.congressmen %}
+            {% for congressman in site.querellados-corpesca %}
               <div class="col-md-15 col-sm-15">
                 <div class="thumbnail">
                     <img class="img-responsive" src="{{site.url}}/img/congressman/{{congressman.image}}" alt="{{congressman.name}}">
