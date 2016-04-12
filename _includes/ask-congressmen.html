@@ -11,7 +11,7 @@
         <h3></h3>
         <ul class="grid cs-style-3 clearfix">
             {% assign counter=0 %}
-            {% for congressman in site.congressmen %}
+            {% for congressman in site.querellados-penta %}
               <div class="col-md-15 col-sm-15">
                 <div class="thumbnail">
                     <img class="img-responsive" src="{{site.url}}/img/congressman/{{congressman.image}}" alt="{{congressman.name}}">
@@ -63,8 +63,5 @@
               {% assign counter=counter | plus:1 %}
             {% endfor %}
         </ul>
-        <div class="reform">
-                <h3><i class="fa fa-exclamation-triangle"></i> Según el Código Procesal Penal, como ONG sólo podemos presentar querellas contra personas que hayan sido autoridades o funcionarios en ejercicio al momento del ilícito, por delitos cometidos contra la probidad pública.</h3>
-        </div>
 </div>
 </section>
