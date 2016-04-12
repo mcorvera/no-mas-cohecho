@@ -17,3 +17,9 @@ collections:
     output: true
   lawyers:
     output: true 
+  querellados-penta:
+    output: true
+  querellados-sqm:
+    output: true
+  querellados-corpesca:
+    output: true
